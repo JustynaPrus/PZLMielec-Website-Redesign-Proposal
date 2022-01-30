@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PZLMielec-Website-Redesign-Proposal/static/css/main.ffe34ec7.css",
+    "main.js": "/PZLMielec-Website-Redesign-Proposal/static/js/main.f2e776dd.js",
+    "static/media/logo_pzlmielec.svg": "/PZLMielec-Website-Redesign-Proposal/static/media/logo_pzlmielec.bd5b54b18c612eaa8cc01cd1c9446089.svg",
+    "index.html": "/PZLMielec-Website-Redesign-Proposal/index.html",
+    "main.ffe34ec7.css.map": "/PZLMielec-Website-Redesign-Proposal/static/css/main.ffe34ec7.css.map",
+    "main.f2e776dd.js.map": "/PZLMielec-Website-Redesign-Proposal/static/js/main.f2e776dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe34ec7.css",
+    "static/js/main.f2e776dd.js"
+  ]
+}
