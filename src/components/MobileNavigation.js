@@ -12,7 +12,7 @@ const MobileNavigation = () => {
         alt="menu hamburger"
         onClick={() => setOpen(!open)}
       />
-      <Links />
+      {open && <Links />}
     </Wrapper>
   );
 };

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ONas from "./pages/ONas";
 import Oferta from "./pages/Oferta";
 import Media from "./pages/Media";
-import Kariera from "./pages/Kontakt";
+import Kariera from "./pages/Kariera";
 import Galeria from "./pages/Galeria";
 import Kontakt from "./pages/Kontakt";
 
@@ -12,12 +12,31 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/O-Nas" element={<ONas />} exact />
-          <Route path="/Oferta" element={<Oferta />} />
-          <Route path="/Media" element={<Media />} />
-          <Route path="/Kariera" element={<Kariera />} />
-          <Route path="/Galeria" element={<Galeria />} />
-          <Route path="/Kontakt" element={<Kontakt />} />
+          <Route
+            path="/PZLMielec-Website-Redesign-Proposal/"
+            element={<ONas />}
+            exact
+          />
+          <Route
+            path="/PZLMielec-Website-Redesign-Proposal/Oferta"
+            element={<Oferta />}
+          />
+          <Route
+            path="/PZLMielec-Website-Redesign-Proposal/Media"
+            element={<Media />}
+          />
+          <Route
+            path="/PZLMielec-Website-Redesign-Proposal/Kariera"
+            element={<Kariera />}
+          />
+          <Route
+            path="/PZLMielec-Website-Redesign-Proposal/Galeria"
+            element={<Galeria />}
+          />
+          <Route
+            path="/PZLMielec-Website-Redesign-Proposal/Kontakt"
+            element={<Kontakt />}
+          />
         </Routes>
       </Router>
     </>
